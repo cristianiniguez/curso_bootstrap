@@ -10,7 +10,7 @@
   <title>Desafío 3</title>
 
   <style>
-    [class^='col'] {
+    [class^='col-'] {
       background-color: rgb(223, 171, 171);
       border: 1px solid white;
       height: 100px;
@@ -22,22 +22,31 @@
 </head>
 
 <body>
-  <ul>
-    <li><a href="./">Ver todos los desafíos</a></li>
-    <li><a href="../">Ir al home</a></li>
-  </ul>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm col-md-6 offset-md-6">1 - 1</div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./">Desafíos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="../">Home</a>
+        <a class="nav-link" href="./challenge2.html">Desafío 2</a>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-8 offset-md-2">2 - 1</div>
+  </nav>
+  <main class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm col-md-6 offset-md-6">1 - 1</div>
+      </div>
+      <div class="row">
+        <div class="col-8 offset-md-2">2 - 1</div>
+      </div>
+      <div class="row">
+        <div class="col-3 offset-9 offset-md-0">3 - 1</div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-3 offset-9 offset-md-0">3 - 1</div>
-    </div>
-  </div>
-  <a href="./challenge2.html">Desafío 2</a>
+  </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

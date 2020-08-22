@@ -9,12 +9,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+      .container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .container img {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <ul>
-      <li><a href="./challenges/">Desafíos</a></li>
-      <li><a href="./project/">Proyecto del curso</a></li>
-    </ul>
+    <div class="container text-center">
+      <div class="row mb-4">
+        <div class="col-8 col-lg-10">
+          <h2>Avance del Curso de Bootstrap de Platzi</h2>
+          <p class="h6">Por <a href="https://cristianiniguez.github.io">Cristian Iñiguez</a></p>
+        </div>
+        <div class="col-4 col-lg-2">
+          <img src="https://cdn-images-1.medium.com/max/1200/1*9HanDsRU11ZMsgDGJwN96w.png" alt="Bootstrap logo">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 mb-4">
+          <a class="btn btn-primary btn-block" href="./challenges/">Desafíos</a>
+        </div>
+        <div class="col-12 col-md-6">
+          <a class="btn btn-success btn-block" href="./project/">Proyecto del curso</a>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

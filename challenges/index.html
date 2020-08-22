@@ -11,15 +11,22 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
   <title>Desafíos de Bootstrap</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  </style>
 </head>
 
 <body>
-  <a href="/">Ir al home</a>
-  <ul>
-    <li><a href="./challenge1.html">Desafío 1</a></li>
-    <li><a href="./challenge2.html">Desafío 2</a></li>
-    <li><a href="./challenge3.html">Desafío 3</a></li>
-  </ul>
+  <a class="btn btn-primary mb-4" href="/">Ir al home</a>
+  <a class="btn btn-danger mb-4" href="./challenge1.html">Desafío 1</a>
+  <a class="btn btn-warning mb-4" href="./challenge2.html">Desafío 2</a>
+  <a class="btn btn-success mb-4" href="./challenge3.html">Desafío 3</a>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
